@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black_main{
+    width: 400px;
+    height: 250px;
+    background-color: #000;
+}
+.flag_main, .graph-main{
+    display: flex;
+    justify-content: center;
+}
+.flag{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(68, 68, 68);
+}
+.circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: red;
+}
+.graph-main{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.graph-main__container{
+    height: 300px;
+    width: 350px;
+    display: flex;
+    align-items: flex-end;
+    border: 2px solid rgb(68, 68, 68);
+}
+.graph{
+    background-color: aquamarine;
+    width: 50px;
+    margin: 0 20px 15px;
+}
+.graph_1{
+    height: 250px;
+} 
+.graph_2{
+    height: 174px;
+} 
+.graph_3{
+    height: 92px;
+} 
+.graph_4{
+    height: 221px;
+} 
